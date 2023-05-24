@@ -32,17 +32,15 @@ form {
     float: right;
 }
 
-#spinner {
-    display: none;
-    justify-content: center;
-    padding: 3rem 0;
+#spinner {    
+    justify-content: center;    
 }
 
 
 .sk-chase {
     width: 40px;
     height: 40px;
-    position: relative;
+    position: relative;    
     animation: sk-chase 2.5s infinite linear both;
   }
   
