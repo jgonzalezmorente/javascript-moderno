@@ -22,6 +22,7 @@ for ( let dato of datos ) {
 
 // Keys Iterator
 console.warn( 'KEYS' );
+
 for( let key of ciudades.keys() ) {
     console.log( key );    
 }
@@ -33,7 +34,6 @@ for( let key of ordenes.keys() ) {
 for( let key of datos.keys() ) {
     console.log( key );    
 }
-
 
 // Values Iterator
 console.warn( 'VALUES' );
@@ -49,17 +49,18 @@ for( let value of datos.values() ) {
     console.log( value );    
 }
 
-
 // Entries Iterator
-// for( let entry of ciudades.entries() ) {
-//     console.log( entry );   
-// }
+console.warn( 'ENTRIES ITERATOR' );
 
-// for( let entry of ordenes.entries() ) {
-//     console.log( entry );   
-// }
+for( let entry of ciudades.entries() ) {
+    console.log( entry );   
+}
 
-// for( let entry of datos.entries() ) {
-//     console.log( entry );   
-// }
+for( let entry of ordenes.entries() ) {
+    console.log( entry );   
+}
+
+for( let entry of datos.entries() ) {
+    console.log( entry );   
+}
 
