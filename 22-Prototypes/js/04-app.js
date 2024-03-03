@@ -29,7 +29,7 @@ function Persona( nombre, saldo, telefono ) {
 }
 
 Persona.prototype = Object.create( Cliente.prototype );
-Persona.prototype.constructor = Cliente;
+Persona.prototype.constructor = Persona;
 
 Persona.prototype.mostrarTelefono = function() {
     return `El teléfono de esta persona es ${ this.telefono }`;
